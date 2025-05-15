@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>dotnet_observability_demo</RootNamespace>
+    <UserSecretsId>7ba90774-1459-4968-8371-3a0e41445d72</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+	<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.12.0" />
+	<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.12.0" />
+	<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.12.0" />
+	<PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.12.0" />
+	<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.12.0" />
+	<PackageReference Include="OpenTelemetry.Exporter.Prometheus.AspNetCore" Version="1.9.0-beta.2" />
+	<PackageReference Include="OpenTelemetry.Exporter.Zipkin" Version="1.12.0" />
+  </ItemGroup>
+
+</Project>

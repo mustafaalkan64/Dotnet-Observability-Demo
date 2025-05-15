@@ -1,0 +1,6 @@
+@dotnet_observability_demo_HostAddress = http://localhost:5062
+
+GET {{dotnet_observability_demo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
