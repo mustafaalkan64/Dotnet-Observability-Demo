@@ -4,7 +4,7 @@ This repository demonstrates how to implement observability in a .NET applicatio
 
 ## 🧰 Features
 
-- ✅ .NET 8 Web API with built-in OpenTelemetry instrumentation
+- ✅ .NET 9 Web API with built-in OpenTelemetry instrumentation
 - 📊 Prometheus for metrics scraping and storage
 - 📈 Grafana for metrics and trace visualization
 - 📦 OpenTelemetry Collector for telemetry routing
